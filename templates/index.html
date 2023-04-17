@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centered Text Page</title>
+  <style>
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #3e8e41;
+    }
+
+    a:active {
+      background-color: #3e8e41;
+      transform: translateY(1px);
+    }
+
+    p {
+      font-size: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="text-container">
+    <h1>Перед использованием сайта необходимо войти в аккаунт</h1>
+    <a href="/register">Регистрация</a>
+    <a href="/login">Логин</a>
+    <p>Небольшой сайт для проекта Yandex Liceym по vk.api</p>
+  </div>
+</body>
+</html>
